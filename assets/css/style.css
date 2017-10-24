@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#titleTrello {
+    font-family: 'Pacifico', cursive !important;
+    text-align: center;
+    color: #75adcd;
+    background-color: #0067a3;
+    margin: -20px -8px 40px -8px;
+    padding: 1px;
+    font-size: 20px !important;
+    opacity: 0.8;
+}
+
+
+/*Secciones*/
+
+#newList {
+    display: inline-block;
+}
+
+
+/*Input Incial*/
+
+.inputNewList {
+    background-color: #006BA9;
+    color: white;
+    border-radius: 0.3em;
+    padding: 12px;
+    border: 0;
+    width: 250px;
+    display: block;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.inputNewList:hover {
+    background-color: #005485;
+}
+
+
+/*Color de Placeholder*/
+
+.inputNewList::-webkit-input-placeholder {
+    color: #aac6d6;
+}
+
+.inputNewList:hover::-webkit-input-placeholder {
+    text-decoration: underline;
+}
+
+
+/*Div Inicial*/
+
+.divNewList {
+    padding: 3px 4px;
+    width: 260px;
+    border-radius: 0.3em;
+    margin-left: 10px;
+}
+
+
+/*Editar*/
+
+.editList {
+    background-color: #e2e4e6;
+}
+
+.inputEditList {
+    background-color: #d6d8da !important;
+    box-shadow: #ccced0;
+    cursor: text;
+    color: #4d4d4d;
+}
+
+.inputEditList::-webkit-input-placeholder {
+    color: #9a9a9a;
+}
+
+
+/*Botones*/
+
+.btnGreen {
+    background-color: #56a43f;
+    color: white;
+    font-weight: bold;
+    padding: 7px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 0.5em;
+    font-family: 'Questrial', sans-serif;
+}
+
+.btnGreen:hover {
+    background-color: #448331;
+}
+
+.btnGray {
+    padding: 7px 20px;
+    font-weight: bold;
+    border: none;
+    color: #888A8C;
+    cursor: pointer;
+    background-color: none;
+    font-family: 'Questrial', sans-serif;
+}
+
+.btnGray:hover {
+    color: #67696A;
+}
+
+
+/*Listas una a una*/
+
+.list {
+    float: left;
+    overflow: auto;
+    background-color: #e2e4e6;
+    padding: 3px 4px;
+    width: 260px;
+    border-radius: 0.3em;
+    margin-right: 1.5%;
+    margin-left: 10px;
+}
+
+
+/*Title*/
+
+.titleList {
+    text-align: left;
+    padding: 0% 5%;
+    text-transform: capitalize;
+    color: #4d4d4d;
+    size: 200px;
+}
+
+
+/*Tareas*/
+
+.inputTask {
+    background-color: #e2e4e6;
+    border-radius: 0.3em;
+    padding: 12px;
+    border: 0;
+    width: 250px;
+    display: block;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.inputTask:hover {
+    background-color: #cdd2d4;
+}
+
+.inputTask::-webkit-input-placeholder {
+    color: #575758;
+}
+
+.inputTask:hover::-webkit-input-placeholder {
+    text-decoration: underline;
+}
+
+.taskWrite {
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    margin: 2% 2%;
+    width: 95%;
+}
+
+.divTask {
+    background-color: #ffffff;
+    color: #5F6161;
+    border-radius: 0.3em;
+    padding: 8px;
+    border: 0;
+    margin: 3% 2%;
+    width: 95%;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.divTask:hover {
+    background-color: #F1F3F5;
+}
